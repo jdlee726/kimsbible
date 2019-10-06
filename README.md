@@ -16,6 +16,7 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
 - `cd %PYTHONPATH%`
 - `kimsbible` 이라는 이름으로 flask project 생성
 - `cd kimsbible`
+- `git clone https://github.com/jdlee726/text-fabric-data.git`
 - `git clone https://github.com/kungsik/kimsbible.git .`
 - `git clone https://github.com/jdlee726/kimsbible.git .` (forked version)
 - pip install
