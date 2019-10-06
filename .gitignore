@@ -7,3 +7,6 @@ lib/config.py
 static/csv/
 cached/
 sitemap.xml
+
+.idea/
+venv/
