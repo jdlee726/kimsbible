@@ -23,5 +23,6 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
 ```
 pip install text-fabric
 pip install flask-login
+pip install flask_mail
 ```
 - rename lib/config.sample.py to lib/config.py
