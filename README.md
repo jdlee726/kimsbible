@@ -16,8 +16,7 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
   - install python3, pycharm
   - 환경변수 `PYTHONPATH=D:\work\proj_other` 추가
 - `cd %PYTHONPATH%`
-- `git clone https://github.com/kungsik/kimsbible.git`
-- or forked version `git clone https://github.com/jdlee726/kimsbible.git`
+- `git clone https://github.com/jdlee726/kimsbible.git`
 - `cd kimsbible`
 - `git clone https://github.com/jdlee726/text-fabric-data.git`
 - pip install
