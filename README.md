@@ -14,7 +14,7 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
 - prerequisites
   - mysql server, create tables
   - install python3, pycharm
-  - 환경변수 `PYTHONPATH=D:\work\proj_other` 추가
+  - 환경변수 `PYTHONPATH=D:\work\proj_python` 추가
 - `cd %PYTHONPATH%`
 - `git clone https://github.com/jdlee726/kimsbible.git`
 - `cd kimsbible`
