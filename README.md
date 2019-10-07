@@ -11,6 +11,9 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
 - https://alphalef.slack.com
 
 # Build from source code
+- prerequisites
+  - mysql server, create tables
+
 - install python3, pycharm
 - 환경변수 `PYTHONPATH=D:\work\proj_other` 추가
 - `cd %PYTHONPATH%`
@@ -22,7 +25,8 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
 - pip install
 ```
 pip install text-fabric
-pip install flask-login
-pip install flask_mail
+pip install flask-login flask_mail flask_dance
+pip install bs4 whoosh
 ```
-- rename lib/config.sample.py to lib/config.py
+- create and edit lib/config.py from lib/config.sample.py
+- edit oauth.py
