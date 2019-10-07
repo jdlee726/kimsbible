@@ -19,7 +19,7 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
 - `git clone https://github.com/jdlee726/kimsbible.git`
 - `cd kimsbible`
 - `git clone https://github.com/jdlee726/text-fabric-data.git`
-- pip install
+- pip install (in project virtualenv )
 ```
 pip install text-fabric
 pip install flask-login flask_mail flask_dance
