@@ -16,11 +16,10 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
   - install python3, pycharm
   - 환경변수 `PYTHONPATH=D:\work\proj_other` 추가
 - `cd %PYTHONPATH%`
-- `kimsbible` 이라는 이름으로 flask project 생성
+- `git clone https://github.com/kungsik/kimsbible.git`
+- or forked version `git clone https://github.com/jdlee726/kimsbible.git`
 - `cd kimsbible`
 - `git clone https://github.com/jdlee726/text-fabric-data.git`
-- `git clone https://github.com/kungsik/kimsbible.git .`
-- `git clone https://github.com/jdlee726/kimsbible.git .` (forked version)
 - pip install
 ```
 pip install text-fabric
@@ -29,3 +28,4 @@ pip install bs4 whoosh
 ```
 - create and edit lib/config.py from lib/config.sample.py
 - edit oauth.py
+- start flask server
