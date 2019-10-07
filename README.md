@@ -21,10 +21,20 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
 - `git clone https://github.com/jdlee726/text-fabric-data.git`
 - pip install (in project virtualenv )
 ```
-pip install text-fabric
 pip install flask-login flask_mail flask_dance
-pip install bs4 whoosh
+pip install text-fabric
+pip install pymysql bs4 whoosh
 ```
-- create and edit lib/config.py from lib/config.sample.py
+- create and edit lib/config.py from lib/config.sample.py, and add the following properties
+```
+mail_server = ""
+mail_username = ""
+mail_password = ""
+```
 - edit oauth.py
+```
+app.config["FACEBOOK_OAUTH_CLIENT_ID"] = 
+app.config["FACEBOOK_OAUTH_CLIENT_SECRET"] = 
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = 
+```
 - start flask server
