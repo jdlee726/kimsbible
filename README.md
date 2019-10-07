@@ -13,9 +13,8 @@ For the details of the Database set, please see the following link: [ETCBC 4C(Pr
 # Build from source code
 - prerequisites
   - mysql server, create tables
-
-- install python3, pycharm
-- 환경변수 `PYTHONPATH=D:\work\proj_other` 추가
+  - install python3, pycharm
+  - 환경변수 `PYTHONPATH=D:\work\proj_other` 추가
 - `cd %PYTHONPATH%`
 - `kimsbible` 이라는 이름으로 flask project 생성
 - `cd kimsbible`
